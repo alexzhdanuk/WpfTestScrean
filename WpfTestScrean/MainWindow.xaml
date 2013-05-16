@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfTestScrean.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525" DataContext="{Binding}" KeyDown="Window_KeyDown" SizeChanged="Window_SizeChanged">
+    <Grid DataContext="{Binding}">
+        <Image HorizontalAlignment="Left" Name="ImageForm" Source="MtnChurch.jpg" Stretch="Fill" />
+        
+    </Grid>
+</Window>
